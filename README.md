@@ -2,23 +2,30 @@
 
 **Movie Explorer** is a web application built using **React** and **TMDb API**. It allows users to explore movies, search for specific titles, view detailed information about movies, add movies to favorites, and watch trailers. The application also supports features like filtering movies by genre, year, and rating.
 
+## 🚀 Live Demo
+
+[Visit Live App](https://cine-explorers.netlify.app/)  
+
+
 ## Features
 
-- 🔍 Search for movies by title
-- 🎞️ Watch trailers directly in the app
-- ❤️ Add/remove movies from favorites
-- 🎛️ Filter movies by genre, year, and rating
-- 🧾 View detailed movie info (overview, release date, rating, genres)
-- 🌗 Light/Dark theme toggle
-- 📱 Responsive design for mobile/tablet/desktop
+- 🔍 Search movies by title using TMDb API
+- 🔥 View trending and popular movies
+- 🎥 Watch trailers (YouTube integration)
+- 🌗 Toggle between Light and Dark themes
+- ❤️ Save favorites using `localStorage`
+- 🕵️ View full movie details (overview, rating, etc.)
+- 🧠 Search history saved locally
+- 📱 Fully responsive design
+- 🔐 Login system
 
 ## Tech Stack
 
 - **Frontend**: React, Material UI
-- **API**: TMDb API
 - **Routing**: React Router
-- **State**: useState, useEffect, localStorage
-- **Deployment**: Vercel / Netlify (recommended)
+- **State**: useState, useEffect, Context API, localStorage
+- **API**: TMDb (The Movie Database)
+- **Deployment**:  Netlify (recommended)
 
 ## Getting Started
 
